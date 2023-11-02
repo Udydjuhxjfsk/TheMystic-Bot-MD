@@ -8,20 +8,20 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['96178965440', '𝐈𝐓𝐀𝐂𝐇𝐈┇👑', true],
-  ['96178965440', '𝐈𝐓𝐀𝐂𝐇𝐈┇👑', true],
-  ['96178965440', '𝐈𝐓𝐀𝐂𝐇𝐈┇👑', true],
-  ['96178965440', '𝐈𝐓𝐀𝐂𝐇𝐈┇👑', true],
+  ['201050861664', '🔱...𝙶𝙷𝙾𝚃𝙸..❄', true],
+  ['201050861664', '🔱...𝙶𝙷𝙾𝚃𝙸..❄', true],
+  ['201050861664', '🔱...𝙶𝙷𝙾𝚃𝙸..❄', true],
+  ['+905519389147', '🔱...𝙶𝙷𝙾𝚃𝙸..❄', true],
 ] 
 
-global.suittag = ['96178965440'] 
-global.prems = ['96178965440'] 
+global.suittag = ['201050861664'] 
+global.prems = ['201050861664'] 
 
-global.packname = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
-global.author = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
-global.wm = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
-global.igfg = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
-global.wait = '*[❗] يرجى الانتظار لحظه...*'
+global.packname = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
+global.author = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
+global.wm = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
+global.igfg = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
+global.wait = '*اصبر جاري تنفيذ الامر*'
 
 
 global.openai_key = 'sk-0'
@@ -148,7 +148,7 @@ let emot = {
       chicken: '🐓 Pollo',
       cow: '🐄 Vaca', 
       dog: '🐕 Perro',
-      dragon: '🐉 Dragón',
+      dragon: '💧 Dragón',
       elephant: '🐘 Elefante',
       fox: '🦊 Zorro',
       giraffe: '🦒 Jirafa',
@@ -241,7 +241,7 @@ string = string.toLowerCase()
       chicken: '🐓',
       cow: '🐄', 
       dog: '🐕',
-      dragon: '🐉',
+      dragon: '💧',
       elephant: '🐘',
       fox: '🦊',
       giraffe: '🦒',
@@ -328,7 +328,7 @@ string = string.toLowerCase()
       centaur: '🐐 Centauro',
       griffin: '🦅 Ave',
       kucing: '🐈 Gato',
-      naga: '🐉 Dragón',
+      naga: '💧 Dragón',
       fox: '🦊 Zorro',
       kuda: '🐎 Caballo',
       phonix: '🕊️ Fénix',
@@ -338,7 +338,7 @@ string = string.toLowerCase()
       makanancentaur: '🐐🥩 Comida de Centauro',
       makanangriffin: '🦅🥩 Comida de Ave',
       makanankyubi: '🌀🥩 Comida Mágica',
-      makanannaga: '🐉🥩 Comida de Dragón',
+      makanannaga: '💧🥩 Comida de Dragón',
       makananpet: '🍱🥩 Alimentos de mascotas',
       makananphonix: '🕊️🥩 Comida de Fénix'  
     }
@@ -405,7 +405,7 @@ global.rpgshopp = { //Tienda
       centaur: '🐐',
       griffin: '🦅',
       kucing: '🐈',
-      naga: '🐉',
+      naga: '💧',
       fox: '🦊',
       kuda: '🐎',
       phonix: '🕊️',
@@ -415,7 +415,7 @@ global.rpgshopp = { //Tienda
       makanancentaur: '🐐🥩',
       makanangriffin: '🦅🥩',
       makanankyubi: '🌀🥩',
-      makanannaga: '🐉🥩',
+      makanannaga: '💧🥩',
       makananpet: '🍱🥩',
       makananphonix: '🕊️🥩'  
     }
@@ -439,15 +439,15 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』`
-global.gt = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
-global.mysticbot = '『👑┇𝚁𝙰𝙸𝙻𝚈┇🤖┇𝙱𝙾𝚃┇👑』'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』`
+global.gt = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
+global.mysticbot = '『❄┇𝙶𝙷𝙾𝚃𝙸-𝙱𝙾𝚃』'
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
 global.waitt = '*[❗] يرجى الانتظار لحظه...*'
 global.waittt = '*[❗] يرجى الانتظار لحظه...*'
 global.waitttt = '*[❗] يرجى الانتظار لحظه...*'
-global.nomorown = '96178965440'
+global.nomorown = '201050861664'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
